@@ -31,7 +31,22 @@ footer {
   padding: 15px;
   margin-top: 30px;
 }
-  
+nav {
+    background-color: #003366;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+      font-weight: bold;
+    font-size: 18px;
+}
+nav a:hover {
+    color: #00ccff;
+}
+
 
 
 
