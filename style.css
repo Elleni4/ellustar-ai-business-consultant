@@ -46,8 +46,81 @@ nav a {
 nav a:hover {
     color: #00ccff;
 }
+/* 7 AI Consultant Dashboard */
 
+.consultant-dashboard {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.consultant-dashboard h2 {
+    text-align: center;
+    color: #1a73e8;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
 
+.dashboard-intro {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+       margin-bottom: 30px;
+}
+.consultant-grid {
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.consultant-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.consultant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.consultant-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.consultant-card h3 {
+    color: #003366;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.consultant-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.consultant-button {
+    display: inline-block;
+    background: #1a73e8;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.consultant-button:hover {
+    background: #003366;
+}
+@media (max-width: 700px) {
+    .consultant-grid {
+        grid-template-columns: 1fr;
+    }
+    .consultant-dashboard h2 {
+        font-size: 26px;
+    }
+}
+
+    
 
 
 
